@@ -9,6 +9,15 @@
 }
 
 @font-palette-values --Nabla {
-	font-family: Nabla;
-	base-palette: 2;
+    font-family: Nabla;
+    base-palette: 2;
+}
+
+.space-bg {
+    background-image: url("/pixelated-space-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
 }
