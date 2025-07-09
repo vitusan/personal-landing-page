@@ -55,3 +55,12 @@ span {
         transform: translatex(0.15em) translatey(0.1em);
     }
 }
+
+.space-bg {
+    background-image: url("/pixelated-space-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
