@@ -1,2 +1,2 @@
-[variables]
-NIXPACKS_NODE_VERSION = "20.19"
+[phases.setup]
+nixpkgsArchive = '8fc98986d49a879db8e3fe8318557caccb43f759'
