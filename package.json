@@ -10,7 +10,7 @@
         "serve:ssr:personal-landing-page": "node dist/personal-landing-page/server/server.mjs"
     },
     "engines": {
-        "node": ">=22.12"
+        "node": ">=20.19"
     },
     "prettier": {
         "overrides": [
