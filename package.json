@@ -9,6 +9,9 @@
     "test": "ng test",
     "serve:ssr:personal-landing-page": "node dist/personal-landing-page/server/server.mjs"
   },
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "prettier": {
     "overrides": [
       {
