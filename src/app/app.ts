@@ -1,12 +1,22 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { NgIconComponent, provideIcons } from '@ng-icons/core';
+import {
+    tdesignLogoGithubFilled,
+    tdesignLogoInstagramFilled,
+    tdesignMailFilled,
+} from '@ng-icons/tdesign-icons';
 
 @Component({
-  selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+    selector: 'app-root',
+    imports: [NgIconComponent],
+    templateUrl: './app.html',
+    styleUrl: './app.css',
+    providers: [
+        provideIcons({
+            tdesignMailFilled,
+            tdesignLogoGithubFilled,
+            tdesignLogoInstagramFilled,
+        }),
+    ],
 })
-export class App {
-  protected title = 'personal-landing-page';
-}
+export class App {}
